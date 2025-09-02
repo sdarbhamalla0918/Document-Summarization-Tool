@@ -51,7 +51,6 @@ docker run -p 8000:8000 -e MODEL_PATH=/model document-summarization-tool:latest
 ```
 
 ## Results (Template)
-Replace with your actual numbers after training/eval:
 
 | Model            | ROUGE-1 | ROUGE-2 | ROUGE-L |
 |------------------|---------|---------|---------|
@@ -64,8 +63,4 @@ Replace with your actual numbers after training/eval:
 ## Config
 See `config.yaml` for defaults. CLI args override config.
 
-## Citation
-If you use this repo, please cite the T5 paper and Hugging Face Transformers/Datasets.
 
-## License
-MIT
