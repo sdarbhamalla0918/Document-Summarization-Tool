@@ -58,8 +58,6 @@ docker run -p 8000:8000 -e MODEL_PATH=/model document-summarization-tool:latest
 | T5-small (ours)  | 40.9    | 18.5    | 38.7    |
 | T5-base (ours)   | 42.7    | 19.9    | 40.1    |
 
-> **Note**: Run `src.evaluate` to generate your own metrics. Hardware, seed, and training time affect results.
-
 ## Config
 See `config.yaml` for defaults. CLI args override config.
 
