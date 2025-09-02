@@ -1,0 +1,15 @@
+transformers>=4.44.0
+datasets>=2.20.0
+accelerate>=0.33.0
+evaluate>=0.4.2
+rouge-score>=0.1.2
+nltk>=3.9
+spacy>=3.7
+sumy>=0.11.0
+fastapi>=0.112
+uvicorn[standard]>=0.30
+pydantic>=2.7
+python-dotenv>=1.0
+pyyaml>=6.0
+torch>=2.2; platform_system!="Darwin" or platform_machine!="arm64"
+torch==2.2.2; platform_system=="Darwin" and platform_machine=="arm64"
