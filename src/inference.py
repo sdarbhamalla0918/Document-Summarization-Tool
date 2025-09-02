@@ -1,0 +1,1 @@
+print('inference script placeholder')
