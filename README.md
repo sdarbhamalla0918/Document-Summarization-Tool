@@ -50,14 +50,6 @@ docker build -t document-summarization-tool:latest .
 docker run -p 8000:8000 -e MODEL_PATH=/model document-summarization-tool:latest
 ```
 
-## Results (Template)
-
-| Model            | ROUGE-1 | ROUGE-2 | ROUGE-L |
-|------------------|---------|---------|---------|
-| TextRank (3 sent)| 36.5    | 14.2    | 33.8    |
-| T5-small (ours)  | 40.9    | 18.5    | 38.7    |
-| T5-base (ours)   | 42.7    | 19.9    | 40.1    |
-
 ## Config
 See `config.yaml` for defaults. CLI args override config.
 
